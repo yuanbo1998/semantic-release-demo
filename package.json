@@ -1,0 +1,32 @@
+{
+    "name":  "semantic-release-demo",
+    "version":  "0.0.0",
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "vite",
+                    "build":  "vite build",
+                    "preview":  "vite preview",
+                    "prepare":  "husky",
+                    "semantic-release":  "semantic-release",
+                    "release:dry-run":  "semantic-release --dry-run"
+                },
+    "dependencies":  {
+                         "vue":  "^3.5.32",
+                         "vue-router":  "^4.6.4"
+                     },
+    "devDependencies":  {
+                            "@commitlint/cli":  "^20.5.0",
+                            "@commitlint/config-conventional":  "^20.5.0",
+                            "@semantic-release/changelog":  "^6.0.3",
+                            "@semantic-release/git":  "^10.0.1",
+                            "@semantic-release/github":  "^12.0.6",
+                            "@vitejs/plugin-vue":  "^6.0.5",
+                            "husky":  "^9.1.7",
+                            "semantic-release":  "^25.0.3",
+                            "vite":  "^8.0.4"
+                        },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/yuanbo1998/semantic-release-demo.git"
+                   }
+}
